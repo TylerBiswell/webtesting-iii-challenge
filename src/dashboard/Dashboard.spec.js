@@ -6,7 +6,8 @@ import Dashboard from './Dashboard';
 import Controls from '../controls/Controls';
 import Display from '../display/Display';
 
-    test('should match snapshot', () => {
+// snapshot test
+test('should match snapshot', () => {
     expect(render(<Dashboard />)).toMatchSnapshot();
   });
   
